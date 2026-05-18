@@ -172,9 +172,11 @@ Project-4/
 3. Start Apache Tomcat
 4. Open: http://localhost:8082/Project-4/
 
-# User Roles
-Username	            Role	                Privileges
- root	             Root User	           Full DML/DDL access
- client	           Client                User	SELECT-only access
- dataentry   	     Data Entry User	     SELECT, INSERT, UPDATE
- theaccountant	   Accountant User	     EXECUTE stored procedures only
+# User Accounts
+
+| Username | Role | Privileges |
+|---|---|---|
+| root | Root | All DML/DDL on project4 |
+| client | Client | SELECT only on project4 |
+| dataentry | Data Entry | SELECT, INSERT, UPDATE on project4 |
+| theaccountant | Accountant | EXECUTE only on project4 |
