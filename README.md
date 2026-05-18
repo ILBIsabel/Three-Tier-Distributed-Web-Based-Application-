@@ -1,6 +1,3 @@
-# Three-Tier-Distributed-Web-Based-Application-
-A distributed three-tier web-based application that utilizes servlets and JSP technology running on a Tomcat container/server to provide client access to and provide maintenance operations on a persistent MySQL database using JDBC.
-
 # CNT 4714 Project 4 – Three-Tier Distributed Web Application
 
 A full-stack enterprise web application built with Java Servlets, JSP, Apache Tomcat, and MySQL, demonstrating a distributed three-tier architecture for managing a suppliers/parts/jobs/shipments database system.
@@ -161,9 +158,11 @@ Project-4/
     │
     └── lib/
         └── mysql-connector-j-9.6.0.jar
+```
 
-Running the Application
-Database Setup
+## Running the Application
+
+# Database Setup
 Run project4DBscript.sql
 Run credentialsDBscript.sql
 Run ClientCreationPermissionsScript.sql
