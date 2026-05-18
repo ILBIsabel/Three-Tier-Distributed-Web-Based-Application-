@@ -180,3 +180,24 @@ Project-4/
 | client | Client | SELECT only on project4 |
 | dataentry | Data Entry | SELECT, INSERT, UPDATE on project4 |
 | theaccountant | Accountant | EXECUTE only on project4 |
+
+# JDBC Interfaces Used
+
+### Statement
+Used for arbitrary SQL execution by root/client users.
+
+### PreparedStatement
+Used by all data-entry servlets for secure parameterized inserts.
+
+### CallableStatement
+Used by accountant-level users for remote stored procedure calls.
+
+# Accountant Stored Procedures
+
+The accountant application executes reports using MySQL stored procedures:
+
+- Get_The_Maximum_Status_Of_All_Suppliers
+- Get_The_Sum_Of_All_Parts_Weights
+- Get_The_Total_Number_Of_Shipments
+- Get_The_Name_Of_The_Job_With_The_Most_Workers
+- List_The_Name_And_Status_Of_All_Suppliers
