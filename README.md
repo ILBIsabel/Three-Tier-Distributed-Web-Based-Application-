@@ -1,4 +1,4 @@
-# CNT 4714 Project 4 – Three-Tier Distributed Web Application
+# Three-Tier Distributed Web Application
 
 A full-stack enterprise web application built with Java Servlets, JSP, Apache Tomcat, and MySQL, demonstrating a distributed three-tier architecture for managing a suppliers/parts/jobs/shipments database system.
 
