@@ -163,12 +163,12 @@ Project-4/
 ## Running the Application
 
 # Database Setup
-Run project4DBscript.sql
-Run credentialsDBscript.sql
-Run ClientCreationPermissionsScript.sql
-Deployment
-Place the Project-4 folder inside Tomcat’s webapps directory
-Compile the servlet files
-Start Apache Tomcat
-Open: http://localhost:8082/Project-4/
+1. Run project4DBscript.sql
+2. Run credentialsDBscript.sql
+3. Run ClientCreationPermissionsScript.sql
+# Deployment
+1. Place the Project-4 folder inside Tomcat’s webapps directory
+2. Compile the servlet files
+3. Start Apache Tomcat
+4. Open: http://localhost:8082/Project-4/
 
