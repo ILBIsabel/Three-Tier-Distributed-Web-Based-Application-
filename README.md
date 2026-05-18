@@ -160,13 +160,13 @@ Project-4/
         └── mysql-connector-j-9.6.0.jar
 ```
 
-## Running the Application
+# Running the Application
 
-# Database Setup
+## Database Setup
 1. Run project4DBscript.sql
 2. Run credentialsDBscript.sql
 3. Run ClientCreationPermissionsScript.sql
-# Deployment
+## Deployment
 1. Place the Project-4 folder inside Tomcat’s webapps directory
 2. Compile the servlet files
 3. Start Apache Tomcat
