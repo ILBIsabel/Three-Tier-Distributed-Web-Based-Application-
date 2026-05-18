@@ -162,13 +162,19 @@ Project-4/
 
 # Running the Application
 
-## Database Setup
+### Database Setup
 1. Run project4DBscript.sql
 2. Run credentialsDBscript.sql
 3. Run ClientCreationPermissionsScript.sql
-## Deployment
+### Deployment
 1. Place the Project-4 folder inside Tomcat’s webapps directory
 2. Compile the servlet files
 3. Start Apache Tomcat
 4. Open: http://localhost:8082/Project-4/
 
+# User Roles
+Username	            Role	                Privileges
+ root	             Root User	           Full DML/DDL access
+ client	           Client                User	SELECT-only access
+ dataentry   	     Data Entry User	     SELECT, INSERT, UPDATE
+ theaccountant	   Accountant User	     EXECUTE stored procedures only
